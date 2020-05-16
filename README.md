@@ -15,4 +15,3 @@ Run `npm run start` to start the server and the React client.
 - [socketio](https://github.com/socketio/socket.io)
 - [date-fns](https://www.npmjs.com/package/date-fns)
 - [Tailwind](https://tailwindcss.com)
-- [ng-tailwindcss](https://github.com/tehpsalmist/ng-tailwindcss)
