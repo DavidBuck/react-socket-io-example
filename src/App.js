@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import { useState, useEffect } from "react"
 import socketIOClient from "socket.io-client"
 import { format } from "date-fns"
 
@@ -9,7 +9,7 @@ function App() {
 
   useEffect(() => {
     const socket = socketIOClient(BASE_URL)
-    socket.on("reading", data => setSensor(data))
+    socket.on("reading", (data) => setSensor(data))
     socket.emit("subscribeToServer", 1000)
   }, [])
 
